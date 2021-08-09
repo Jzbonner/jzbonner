@@ -32,7 +32,6 @@ Currently working on a number of web applications that aid in help-desk operatio
 #### Frameworks, Build Tools, and Libraries:
 
 <img align="left" alt="MJML" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627703435/design-assets/icon-assets/mjml.png" />
-<img align="left" alt="Markdown" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627703429/design-assets/icon-assets/markdown.svg" />
 <img align="left" alt="Sass" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627449412/design-assets/icon-assets/sass.png" />
 <img align="left" alt="Figma" width="20px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1628016414/design-assets/icon-assets/figma.svg" />
 <img align="left" alt="React" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627449411/design-assets/icon-assets/react.png" />
