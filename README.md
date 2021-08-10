@@ -33,14 +33,11 @@ Currently working on a number of web applications that aid in help-desk operatio
 
 |<img align="center" alt="MJML" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627703435/design-assets/icon-assets/mjml.png" />|<img align="center" alt="Sass" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627449412/design-assets/icon-assets/sass.png" />| <img align="center" alt="Figma" width="20px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1628016414/design-assets/icon-assets/figma.svg" />|<img align="center" alt="React" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627449411/design-assets/icon-assets/react.png" />|<img align="center" alt="Gatsby" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627449411/design-assets/icon-assets/gatsby.png" />|<img align="center" alt="GraphQL" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627449411/design-assets/icon-assets/graphql.png" />|<img align="center" alt="Node.js" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627449411/design-assets/icon-assets/nodejs.png" />|<img align="center" alt="PHP" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627703445/design-assets/icon-assets/php.png" />
 |----|----|----|----|----|----|----|----|
-|mjml|sass|figma|reactjs|gatsbyjs|graphql|nodejs|laravel|
+|<p align="center">mjml</p>|<p align="center">sass</p>|<p align="center">figma</p>|<p align="center">reactjs</p>|<p align="center">gatsbyjs</p>|<p align="center">grahpql</p>|<p align="center">nodejs</p>|<p align="center">laravel</p>|
 
 |<img align="center" alt="Wordpress" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627706661/design-assets/icon-assets/wordpress.svg" />|<img align="center" alt="Visual Studio Code" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627449412/design-assets/icon-assets/visual-studio-code.png" />| <img align="center" alt="Google Suite" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627706645/design-assets/icon-assets/google-drive.svg" />|<img align="center" alt="Microsoft Office Suite" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627703531/design-assets/icon-assets/microsoft_office.png" />|<img align="center" alt="SQL" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627449412/design-assets/icon-assets/sql.png" />|<img align="center" alt="MySQL" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627705680/design-assets/icon-assets/mysql-slim-logo.png" />|<img align="center" alt="GitHub" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627449411/design-assets/icon-assets/github.png" />|<img align="center" alt="Terminal" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627449411/design-assets/icon-assets/terminal.png" />
 |----|----|----|----|----|----|----|----|
-|wordpress|vscode|gsuite|msoffice|sql|mysql|git|linux|
-
-
-
+|<p align="center">wordpress</p>|<p align="center">vscode</p>|<p align="center">gsuite</p>|<p align="center">msoffice</p>|<p align="center">sql</p>|<p align="center">mysql</p>|<p align="center">git</p>|<p align="center">linux</p>|
 
 ---
 
@@ -52,8 +49,6 @@ Currently working on a number of web applications that aid in help-desk operatio
 - [Vanilla JS, ES6 and Web Development Concepts](https://jzb-lib.xyz)
 - [...more blog posts](https://jzb-lib.xyz)
 <!-- BLOG-POST-LIST:END -->
-
-
 
 [website]: https://jzbonner.me
 [github-profile]: https://github.com/Jzbonner
