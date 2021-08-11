@@ -21,7 +21,7 @@ Currently working on a number of web applications that aid in help-desk operatio
   
 <!--START_SECTION:activity-->
 - Updated layout and content changes for educational resouces in [jzbonner/programming-cs](https://github.com/Jzbonner/programming-cs)
-- Refreshed site design and mobile responsiveness for personal website in [jzbonner/jzbonner.me]() 
+- Refreshed site design and mobile responsiveness for personal website in [jzbonner/jzbonner.me](https://github.com/Jzbonner/jzbonner.me) 
 - Added interactive notes on financial research and modeling to [jzbonner/dataanalytics-py](https://github.com/Jzbonner/dataanalytics-py)
 - Worked on code issues and developed wordpress themes and templates in [REPLI Developer Repo](https://github.com/REPLI-Developer-Repo) 
 <!--END_SECTION:activity-->
