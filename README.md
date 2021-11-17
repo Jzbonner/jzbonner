@@ -44,10 +44,10 @@ Currently working on a number of web applications that aid in help-desk operatio
 ### [<img align="center" alt="brain-logo" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627449411/design-assets/icon-assets/brain.png"/>][blog] Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Gatsby.js and MarkdownX: Local CMS](https://jzb-lib.xyz)
-- [Data Structures and Algorithms a Brief Synopsis](https://jzb-lib.xyz)
-- [Vanilla JS, ES6 and Web Development Concepts](https://jzb-lib.xyz)
-- [...more blog posts](https://jzb-lib.xyz)
+- [Gatsby.js and MarkdownX: Local CMS](https://github.com/Jzbonner/blog-backup/tree/main/blog-articles)
+- [Data Structures and Algorithms a Brief Synopsis](https://github.com/Jzbonner/blog-backup/tree/main/blog-articles) 
+- [Vanilla JS, ES6 and Web Development Concepts](https://github.com/Jzbonner/blog-backup/tree/main/blog-articles)
+- [...more blog posts](https://github.com/Jzbonner/blog-backup/tree/main/blog-articles) 
 <!-- BLOG-POST-LIST:END -->
 
 [website]: https://jzbonner.me
