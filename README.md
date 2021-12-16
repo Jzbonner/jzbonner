@@ -39,6 +39,8 @@ Currently working on a number of web applications that aid in help-desk operatio
 |----|----|----|----|----|----|----|----|
 |<p align="center">wordpress</p>|<p align="center">vscode</p>|<p align="center">gsuite</p>|<p align="center">msoffice</p>|<p align="center">sql</p>|<p align="center">mysql</p>|<p align="center">git</p>|<p align="center">linux</p>|
 
+![github-skilldeck](https://res.cloudinary.com/dzmc7doja/image/upload/v1639695749/portfolio-site/github-skilldeck.png)
+
 ---
 
 ### [<img align="center" alt="brain-logo" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627449411/design-assets/icon-assets/brain.png"/>][blog] Latest Blog Posts
