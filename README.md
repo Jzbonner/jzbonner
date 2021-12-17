@@ -13,7 +13,7 @@
 
 Currently working on a number of web applications that aid in help-desk operations, account management, data protection and content management. I am comfortable with a wide range of web technologies, but particularly enjoy  front-end software development. I blog about a wide range of topics relating to emerging technology, programming concepts, data aggregation, and entrepreneurship. I am open to and looking for exciting new development projects to contribute to! 
 
-| Most Used Languages | Github Statistics for 2021 |
+| Most Used Languages | Github Stats|
 |-----------|-------|
 |[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jzbonner&hide=tcl&layout=compact&hide_title=true&langs_count=8)](https://github.com/Jzbonner)| ![Jzbonner's GitHub stats](https://github-readme-stats.vercel.app/api?username=jzbonner&show_icons=true&hide_title=true&theme=nord)  
 <details>
