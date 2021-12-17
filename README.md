@@ -3,7 +3,7 @@
 [![Website](https://img.shields.io/website?label=jzbonner.me&style=flat-square&url=https%3A%2F%2Fjzbonner.me)](https://jzbonner.me)
 [![Website](https://img.shields.io/website?label=think-broadly&style=flat-square&url=https%3A%2F%2Fjzb-lib.xyz)](https://jzb-lib.xyz)
 
-## Developer. Blogger. Freelancer. 
+## Developer. Freelancer. Blogger.  
 [<img align="left" alt="jzbonner" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
 [<img align="left" alt="jzbonner | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="jzbonner | Twitter" width="22px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627450729/design-assets/icon-assets/mail-svg.svg" />][mailto]
