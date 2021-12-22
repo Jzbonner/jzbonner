@@ -31,7 +31,7 @@ Currently working on a number of web applications that aid in help-desk operatio
 
 #### Frameworks, Build Tools, and Libraries:
 
-![github-skilldeck](https://res.cloudinary.com/dzmc7doja/image/upload/v1639695749/portfolio-site/github-skilldeck.png)
+![github-skilldeck](https://res.cloudinary.com/dzmc7doja/image/upload/v1640155082/portfolio-site/github-skillset.png)
 
 ---
 
