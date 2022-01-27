@@ -1,6 +1,6 @@
 <img align="center" alt="dev-package" width="84px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1640411837/portfolio-site/logo-initials.png"/>
 
-[![Website](https://img.shields.io/badge/github%20projects-up-orange)](https://github.com/users/Jzbonner/projects/5)
+[![Website](https://img.shields.io/badge/github%20projects-view%20my%20work-green)](https://github.com/users/Jzbonner/projects/5)
 
 
 [<img align="left" alt="jzbonner | Figma" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][figma]
