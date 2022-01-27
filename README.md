@@ -1,13 +1,11 @@
 <img align="center" alt="dev-package" width="84px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1640411837/portfolio-site/logo-initials.png"/>
 
-[![Website](https://img.shields.io/website?label=jzbonner.me&style=flat-square&url=https%3A%2F%2Fjzbonner.me)](https://jzbonner.me)
-[![Website](https://img.shields.io/website?label=think-broadly&style=flat-square&url=https%3A%2F%2Fjzb-lib.xyz)](https://jzb-lib.xyz)
-[![Website](https://img.shields.io/website?label=github&style=flat&logo=gitbook&logoColor=AABCA7&up_message=projects&up_color=grey&url=https%3A%2F%2Fgithub.com/Jzbonner?tab=projects)](https://github.com/Jzbonner?tab=projects)
+[![Website](https://img.shields.io/badge/github%20projects-up-orange)](https://github.com/users/Jzbonner/projects/5)
 
 
 [<img align="left" alt="jzbonner | Figma" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][figma]
 [<img align="left" alt="jzbonner | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="jzbonner | Twitter" width="22px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1627450729/design-assets/icon-assets/mail-svg.svg" />][mailto]
+[<img align="left" alt="jzbonner | Twitter" width="22px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1643181521/design-assets/icon-assets/twitter-svgrepo-com.svg" />][twitter]
 <br />
 <br />
 
@@ -19,17 +17,18 @@ Currently working on a number of web applications that aid in help-desk operatio
 | Most Used Languages | Github Stats|
 |-----------|-------|
 |[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jzbonner&hide=tcl&layout=compact&hide_title=true&langs_count=8)](https://github.com/Jzbonner)| ![Jzbonner's GitHub stats](https://github-readme-stats.vercel.app/api?username=jzbonner&show_icons=true&hide_title=true&theme=nord)  
-<details>
-  <summary>:black_nib: recent github activity</summary>
-  
-<!--START_SECTION:activity-->
-- Updated layout and content changes for educational resouces in [jzbonner/programming-cs](https://github.com/Jzbonner/programming-cs)
-- Refreshed site design and mobile responsiveness for personal website in [jzbonner/jzbonner.me](https://github.com/Jzbonner/jzbonner.me) 
-- Added interactive notes on financial research and modeling to [jzbonner/dataanalytics-py](https://github.com/Jzbonner/dataanalytics-py)
-- Worked on code issues and developed wordpress themes and templates in [REPLI Developer Repo](https://github.com/REPLI-Developer-Repo) 
-<!--END_SECTION:activity-->
 
-</details>
+<!-- <details> -->
+<!--   <summary>:black_nib: recent github activity</summary> -->
+<!--    -->
+<!--START_SECTION:activity-->
+<!-- - Updated layout and content changes for educational resouces in [jzbonner/programming-cs](https://github.com/Jzbonner/programming-cs) -->
+<!-- - Refreshed site design and mobile responsiveness for personal website in [jzbonner/jzbonner.me](https://github.com/Jzbonner/jzbonner.me)  -->
+<!-- - Added interactive notes on financial research and modeling to [jzbonner/dataanalytics-py](https://github.com/Jzbonner/dataanalytics-py) -->
+<!-- - Worked on code issues and developed wordpress themes and templates in [REPLI Developer Repo](https://github.com/REPLI-Developer-Repo)  -->
+<!--END_SECTION:activity-->
+<!-- </details> -->
+
 <br />
 
 #### [<img align="center" alt="brain-logo" width="26px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1640759855/design-assets/design-icon-assets/hierarchical-structure.png"/>][blog] frameworks, build tools, and libraries:  
@@ -54,3 +53,4 @@ Currently working on a number of web applications that aid in help-desk operatio
 [linkedin]: https://www.linkedin.com/in/jarrett-bonner/
 [blog]: https://jzb-lib.xyz/
 [mailto]: mailto:jarrett.bonner@gmail.com
+[twitter]: https://twitter.com/jzb_dev
