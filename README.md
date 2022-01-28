@@ -3,8 +3,8 @@
 [![Website](https://img.shields.io/badge/github%20projects-view%20my%20work-green)](https://github.com/users/Jzbonner/projects/5)
 
 
-[<img align="left" alt="jzbonner | Figma" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][figma]
-[<img align="left" alt="jzbonner | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="jzbonner | Figma" width="22px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1631673497/design-assets/icon-assets/figma-logo.png" />][figma]
+[<img align="left" alt="jzbonner | LinkedIn" width="22px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1643350646/design-assets/icon-assets/linkedin.png" />][linkedin]
 [<img align="left" alt="jzbonner | Twitter" width="22px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1643181521/design-assets/icon-assets/twitter-svgrepo-com.svg" />][twitter]
 <br />
 <br />
