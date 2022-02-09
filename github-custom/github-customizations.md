@@ -34,3 +34,6 @@
 
 `{codebase refactor needed}`
 1. use in situations where code-cleanup is required, typically for production environments and deployments 
+
+`{ready for pull-request}`
+1. use in situations where a merge or pull request to main branch is ready
