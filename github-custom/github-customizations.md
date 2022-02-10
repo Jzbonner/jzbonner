@@ -37,3 +37,7 @@
 
 `{ready for pull-request}`
 1. use in situations where a merge or pull request to main branch is ready
+
+`{enhancement or feature request}`
+1. use in situations where a feature request is the primary milestone for this project
+
