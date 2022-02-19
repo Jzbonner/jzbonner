@@ -16,6 +16,9 @@ A number of commands that are typical for Linux users can also be mapped to Powe
 ### Configuring Powershell 
 This section will include details on how to configure powershell for a more intuitive visual experience.
 
+#### Important PowerShell Modules 
+Provide a list of powershell modules that make working with PowerShell core intuitive. 
+
 ### Automation with Powershell
 This section will include details on how to setup scripts with Powershell in order to automate everyday task.
 
