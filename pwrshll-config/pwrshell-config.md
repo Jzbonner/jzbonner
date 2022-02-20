@@ -14,11 +14,11 @@ A number of commands that are typical for Linux users can also be mapped to Powe
 ![mapped linux commands for powershell](https://res.cloudinary.com/dzmc7doja/image/upload/v1644128638/notes-imgcontent/powershell_config.png)
 
 ### Configuring Powershell 
-This section will include details on how to configure powershell for a more intuitive visual experience.
+Please refer to this [document](https://github.com/Jzbonner/jzbonner/tree/main/development-environment) for a step by step guide on how to configure PowerShell in order to get the most out of your development workflow.
 
 #### Important PowerShell Modules 
 Provide a list of powershell modules that make working with PowerShell core intuitive. 
 
-### Automation with Powershell
+#### Automation with Powershell
 This section will include details on how to setup scripts with Powershell in order to automate everyday task.
 
