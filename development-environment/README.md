@@ -122,7 +122,7 @@ Once you have imported the wsl-themes.json file into your `JSON` settings. You c
 #### Step 4/Step 5: Install Go-lang or Rust
 I find that there are a number of useful command line utilities built in Rust and Go-lang that aid in your overall development experience. Installing Go-land and Rust in a windows environment is as simple as downloading the necessary SDK, and walking through the prompt. 
 
-| Go-land Install | Rust Install |
+| Go-lang | Rust |
 | --- | --- |
 | link to go-lang [install](https://go.dev/) | link to rust [install](https://www.rust-lang.org/learn/get-started) |
 
@@ -210,12 +210,73 @@ function touch {
 }
 ```
 
-Link to jzbonner.omp.json file **[here]()**
+Link to jzbonner.omp.json file **[here](https://github.com/Jzbonner/jzbonner/blob/main/pwrshll-config/jzbonner.omp.json)**
 
 To understand more about powershell-configuration, powershell-modules and powershell-automation, refer to my GitHub hosted repo markdown file: [here](https://github.com/Jzbonner/jzbonner/blob/main/pwrshll-config/pwrshell-config.md)
 
 #### The Nitty Gritty
-Let's walk through step by step how to achieve the above configuration from a default PowerShell configuration:  
+Let's walk through step by step how to achieve the above configuration from a default PowerShell configuration. Initially we want to setup our configuration folder so that we can load a predefined `profile` file whenever we load PowerShell Core. Navigate to `C:\Users\{Your-User-Account}` and type the following commands: 
+
+```powershell
+# Step One 
+mkdir .config/powershell
+
+# Step Two - you can use another text editor for this step (i.e. VSCode). Just naviagte to the file directory and `open with VSCode`
+nano .config/powershell/user_profile.ps1
+
+# Step Three - create Aliases to make working in a PowerShell environment similar to that of Bash. Copy the following into the newly created file
+
+# Alias 
+Set-Alias vim nvim 
+Set-Alias ll ls 
+Set-Alias g git 
+Set-Alias grep findstr 
+Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
+Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
+
+function touch {
+    Param(
+        [Parameter(Mandatory=$true)]
+        [string]$Path
+    )
+    if (Test-Path -LiteralPath $Path) {
+        (Get-Item -Path $Path).LastWriteTime = Get-Date
+    } else {
+        New-Item -Type File -Path $Path
+    }
+}
+
+# Step Four - embed yout custom configuration as the default profile for PowerShell Core
+nano $PROFILE.CurrentUserCurrentHost
+
+# it should load a blank file, please type the following in the file and save and close
+. $env:USERPROFILE\.config\powershell\user_profile.ps1
+
+# Step Five - open a new PowerShell core terminal and install the following modules for a custom prompt
+Install-Module posh-git -Scope CurrentUser -Force
+Install-Module oh-my-posh -Scope CurrentUser -Force
+
+# Step Six - now we can install a custom theme. Navigate back to the C:\Users\{Your-User-Account}\.config\powershell folder and create a file with the following command; if the touch command doesn't work you may need to open a new instance of PowerShell core for the Alias to take effect 
+touch {Your-User-Account}.omp.json
+
+# Now go ahead and copy the entire json schema that I have linked above (titled jzbonner.omp.json) this is my current theme configuration, however if you would like to choose your own theme refer to the theme repo that oh-my-posh offers (it's linked below this section).
+
+# Step Seven - Initialize custom theme 
+oh-my-posh --init --shell pwsh --config .\{Your-User-Account}.omp.json | Invoke-Expression 
+
+# Step Eight - after ensuring that the prompt loads correctly we can now embed it in our user_profile.ps1 file, above the #Alias section, inorder to load it as the default prompt whenever you open the PowerShell core prompt in Windows Terminal 
+# Prompt 
+Import-Module posh-git 
+Import-Module oh-my-posh 
+
+# Load Custom Prompt
+function Get-ScriptDirectory { Split-Path $MyInvocation.ScriptName }
+$PROMPT_CONFIG = Join-Path (Get-ScriptDirectory) 'jzbonner.omp.json'
+oh-my-posh --init --shell pwsh --config $PROMPT_CONFIG | Invoke-Expression 
+
+```
+
+link to **oh-my-posh** theme repository: **[here](https://ohmyposh.dev/docs/themes)**. All you have to do to change your theme is copy the configuration of a theme's json file into your `{Your-User-Account}.omp.json` (be sure to replace the current contents of that file and not add it as additional schema, the json file only supports one theme configuration at a time). 
 
 ### Configuring VIM
 Buckle in, it's going to be a wild ride.
