@@ -29,8 +29,8 @@ You can install PowerShell Core from the Microsoft Store. Click [Here](https://w
 For a windows development environment I recommend you use Windows Terminal as your command line of choice. This enables you to use both PowerShell core and your newly installed Linux (bash-based) Ubuntu shell in tandem. You can install Windows Terminal from the Microsoft Store, Click [Here](https://www.microsoft.com/store/productId/9N0DX20HK701). 
 
 This will now be your terminal of choice however there a number of alternatives that you can consider: 
-1. hyper ~ [here](https://hyper.is/)
-2. tabby ~ [here](https://tabby.sh/)
+1. **🖥️ hyper** ~ [here](https://hyper.is/)
+2. **🖥️ tabby** ~ [here](https://tabby.sh/)
 
 ## Customization and Configuration
 The tools above can be customized to your specific needs. You now have a terminal that lets you use both a windows-based and bash-based command line. From here it's all about maximizing workflow. Through my personal development journey, I have found a few tools that have helped me get into a flow state and code/manage project directories at lightning speed. Continue reading below to see learn more: 
@@ -80,14 +80,147 @@ From here there are 6 steps that will make you a poweruser of Windows Terminal:
 * Step 2: Configure settings for Windows Terminal 
 * Step 3: Choose/Customize colorscheme for Windows Terminal 
 * Step 4: Install Go-Lang (optional)
-* Step 5: Install Rust (required)
+* Step 5: Install Rust (optional)
 * Step 6: Understanding/Updating Environment Variables/PATH
 
+#### Step 2: Configuring Windows Terminal 
+
+![terminal-settings](https://res.cloudinary.com/dzmc7doja/image/upload/v1645395667/notes-imgcontent/windowsterminal-settings.png)
+
+Your terminal settings for Windows Terminal can be managed via a GUI and a JSON file. You should handle most customization options via the GUI and reserve the JSON settings panel for colorscheme and managing terminal distribution startup properties.  
+
+##### GUI - Startup Settings
+Set your default profile to Pwrshell or your Ubuntu distribution, then set your default terminal application to Windows Terminal. Ensure that **Launch Mode** is set to default and **New Instance Behavior** is set to `Create a new window`. Launch Size determines your default windows size. I find that `200` column width by `50` row height, is optimal for 1920 by 1080 screen sizes. 
+
+##### GUI - Interaction Settings
+The two most important settings are: 
+1. **Automatically copy selection to clipboard: `on`** <br />
+*When this is set to true, a selection is immediately copied to your clipboard upon creation.*
+2. **Automatically detect URLs and make them clickable: `on`** <br /> 
+*When this is set to true, URLs are made clickable via `Ctrl + Left Click`*
+
+##### GUI - Appearance Settings
+These customization options will depend on personal preference. I currently have them configured as follows: 
+
+![appearance-settings](https://res.cloudinary.com/dzmc7doja/image/upload/v1645417531/notes-imgcontent/appearance-settings.png)
+
+##### GUI - Rendering Settings
+Leave everything disabled. That's it. 
+
+##### GUI - Action Settings
+You can use this option menu to configure your keymappings. I find that the default keymappings are more than sensible, but it may be helpful to cater these to your preference. The most useful keybindings are going to be associated with navigation. You may have heard of the terminal multiplexer known as [`tmux`](https://github.com/tmux/tmux/wiki). With tab  and pane functionality being built into Windows Terminal you can treat the entire terminal as one big `tmux` instance. Having keybindings that allow for quick navigation across tabs and across panes, is most important.  
+
+#### Step 3: Choose/Customize colorscheme for Windows Terminal 
+You can use the GUI option menu `Color schemes` to configure the color combination of your Windows Terminal, but I find it to be easier to manage colorscheme and styles via the `JSON` settings option. I have gone ahead and compiled a number of useful colorscheme palletes to easily import into your development environment. 
+
+Once you have imported the wsl-themes.json file into your `JSON` settings. You can then select the appropriate colorscheme by going to the *Color schemes* option menu and selecting it from the drop-down menu. 
+
+**Windows Terminal ColorSchemes** - (sourced from: [wslthemes](https://windowsterminalthemes.dev/))
+![wsl-themes](https://res.cloudinary.com/dzmc7doja/image/upload/v1645422559/notes-imgcontent/wsl-themes.png)
+> *click [here]() to download the wsl-themes.json file*
+
+#### Step 4/Step 5: Install Go-lang or Rust
+I find that there are a number of useful command line utilities built in Rust and Go-lang that aid in your overall development experience. Installing Go-land and Rust in a windows environment is as simple as downloading the necessary SDK, and walking through the prompt. 
+
+| Go-land Install | Rust Install |
+| --- | --- |
+| link to go-lang [install](https://go.dev/) | link to rust [install](https://www.rust-lang.org/learn/get-started) |
+
+**Rust Command Line Tools**
+1. xsv - a command line program for indexing, slicing, analyzing and joining csv files [link](https://github.com/BurntSushi/xsv)
+2. tokei - a command line program for displaying statistics about your code [link](https://github.com/XAMPPRocky/tokei)
+3. btm - a customizable command line GUI for process/system resources [link](https://github.com/ClementTsang/bottom)
+
+**Go-Lang Command Line Tools**
+1. gron - a command line tool for making json data greppable [link](https://github.com/tomnomnom/gron) 
+2. get-headers - a command line tool for displaying GET headers of a specific URL [link](https://github.com/carlmjohnson/get-headers) 
+
+#### Step 6: Understanding/Updating Environment Variables/PATH
+After installing Go-lang and/or Rust. You will want to make sure that you have the necessary project directory added to your system `Environment Variables`. A similar process is also required in your Ubuntu environment. But, first we will take a look at `Environment Variables` in Windows OS. You can access your Environment Variables in Windows 11 by simply hitting the 🪟 key and typing **Environment Variables** in the search bar, then click **Edit the system environment variables**. 
+
+From there you will want to make sure that you have added new environment variables for both Rust (i.e. cargo) and Go-lang, refer to the screenshot below: 
+
+![env-variables](https://res.cloudinary.com/dzmc7doja/image/upload/v1645426328/notes-imgcontent/environment-variables.png)
+
+Setting up environment variables in Linux requires you to edit your PATH variables. PATH variables must be setup in your `.bashrc` file, or your `.zshrc` file if you have a terminal prompt installed in place of bash (we will dive deeper into this in the next section). 
+
+You will need to open an Ubuntu terminal instance and navigate to your home directory (i.e. type `cd ~` to do so). From there you can access your `.bashrc` or `.zshrc` file using vim or nano (built in text-editors to the linux ecosystem - type `nano .bashrc` or `nano .zshrc`). Navigate to the bottom of the respective files and place the following export statement: 
+
+```bash
+export PATH="$PATH:/home/{your-linux-username}/.local/bin"
+```
+
+Most linux based packages are installed in your bin folder and providing the above export statement will allow the PATH of these packages to be accessible via aliases within your command line. That's a little confusing but just understand that it makes your installed (non-native) packages accessible directly from the command line without having to state the PATH directory. 
+
+![path-variables](https://res.cloudinary.com/dzmc7doja/image/upload/v1645427658/notes-imgcontent/path-variables.png)
+
 ### Configuring PowerShell Core
-Document the steps in this Youtube [Video](https://www.youtube.com/watch?v=5-aK2_WwrmM)
+Finally the customization part, let's make your Terminal look like this: 
+
+![pwrshell-prompt](https://res.cloudinary.com/dzmc7doja/image/upload/v1645428547/notes-imgcontent/pwrshell-prompt.png)
+
+**TLDR**: use this `user-profile.ps1` in your configuration to setup your PowerShell prompt in accordance with mine: 
+
+```powershell
+# Prompt 
+Import-Module posh-git 
+Import-Module oh-my-posh 
+
+
+# Load Custom Prompt
+function Get-ScriptDirectory { Split-Path $MyInvocation.ScriptName }
+$PROMPT_CONFIG = Join-Path (Get-ScriptDirectory) 'jzbonner.omp.json'
+oh-my-posh --init --shell pwsh --config $PROMPT_CONFIG | Invoke-Expression 
+
+
+# Terminal Icons
+Import-Module -Name Terminal-Icons
+
+
+# PSReadLine
+Set-PSReadLineOption -EditMode Emacs 
+Set-PSReadLineOption -BellStyle None
+Set-PSReadLineKeyHandler -Chord 'Ctrl+d' -Function DeleteChar
+Set-PSReadLineOption -PredictionSource History
+
+
+# FZF
+Import-Module PSFzf
+Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
+
+
+# Alias 
+Set-Alias vim nvim 
+Set-Alias ll ls 
+Set-Alias g git 
+Set-Alias grep findstr 
+Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
+Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
+
+function touch {
+    Param(
+        [Parameter(Mandatory=$true)]
+        [string]$Path
+    )
+    if (Test-Path -LiteralPath $Path) {
+        (Get-Item -Path $Path).LastWriteTime = Get-Date
+    } else {
+        New-Item -Type File -Path $Path
+    }
+}
+```
+
+Link to jzbonner.omp.json file **[here]()**
+
+To understand more about powershell-configuration, powershell-modules and powershell-automation, refer to my GitHub hosted repo markdown file: [here](https://github.com/Jzbonner/jzbonner/blob/main/pwrshll-config/pwrshell-config.md)
+
+#### The Nitty Gritty
+Let's walk through step by step how to achieve the above configuration from a default PowerShell configuration:  
 
 ### Configuring VIM
 Buckle in, it's going to be a wild ride.
+
+#### Why VIM??
 
 ### Configuring GitHub
 You can do a lot of things with GitHub these days. From version control to project management to github webhooks. Automation through GitHub has been made possible. I use GitHub Project for project management and take advantage of GitHub applications to create labels and milestones for repositories through a yml file. For more detail on this process refer to this [link](https://github.com/Jzbonner/jzbonner/blob/main/github-custom/github-customizations.md)
