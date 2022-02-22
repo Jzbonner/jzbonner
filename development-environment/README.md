@@ -117,7 +117,7 @@ Once you have imported the wsl-themes.json file into your `JSON` settings. You c
 
 **Windows Terminal ColorSchemes** - (sourced from: [wslthemes](https://windowsterminalthemes.dev/))
 ![wsl-themes](https://res.cloudinary.com/dzmc7doja/image/upload/v1645422559/notes-imgcontent/wsl-themes.png)
-> *click [here]() to download the wsl-themes.json file*
+> *click [here](https://github.com/Jzbonner/jzbonner/blob/main/development-environment/wsl-themes.json) to download the wsl-themes.json file*
 
 #### Step 4/Step 5: Install Go-lang or Rust
 I find that there are a number of useful command line utilities built in Rust and Go-lang that aid in your overall development experience. Installing Go-land and Rust in a windows environment is as simple as downloading the necessary SDK, and walking through the prompt. 
@@ -274,14 +274,61 @@ function Get-ScriptDirectory { Split-Path $MyInvocation.ScriptName }
 $PROMPT_CONFIG = Join-Path (Get-ScriptDirectory) 'jzbonner.omp.json'
 oh-my-posh --init --shell pwsh --config $PROMPT_CONFIG | Invoke-Expression 
 
+# Step Nine - install terminal icons with the following command, then add the imported module to your user_profile.ps1 file 
+Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+# Terminal Icons
+Import-Module -Name Terminal-Icons
+
+# Step Ten - install additional powershell core modules for enhanced workflow (these include z dir jumper, PSReadLine Autocompletion Engine and fzf) 
+# Use these commands in to install the necessary modules 
+Install-Module -Name z -Force 
+Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+
+# For fzf fuzzy finder we will need to install it for the Windows ecosystem using scoop first, and then install the necessary PowerShell module to configure it for PowerShell core
+# use scoop to install fzf 
+scoop install fzf 
+
+# then install the necessary PowerShell module 
+Install-Module -Name PSDzf -Scope CurrentUser -Force
+
+# Step Eleven - add remaining initialization options to user_profile.ps1 file and done!
+# PSReadLine
+Set-PSReadLineOption -EditMode Emacs 
+Set-PSReadLineOption -BellStyle None
+Set-PSReadLineKeyHandler -Chord 'Ctrl+d' -Function DeleteChar
+Set-PSReadLineOption -PredictionSource History
+
+# FZF
+Import-Module PSFzf
+Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
 ```
 
-link to **oh-my-posh** theme repository: **[here](https://ohmyposh.dev/docs/themes)**. All you have to do to change your theme is copy the configuration of a theme's json file into your `{Your-User-Account}.omp.json` (be sure to replace the current contents of that file and not add it as additional schema, the json file only supports one theme configuration at a time). 
+Using my prompt setup is completely optional, there are a wide variety of themes and PowerShell modules that you can use in accordance with mine or get creative and create one that caters to your own development needs. Below are some important resources for oh-my-posh themes and PowerShell modules: 
+1. link to **oh-my-posh** theme repository: **[here](https://ohmyposh.dev/docs/themes)**. All you have to do to change your theme is copy the configuration of a theme's json file into your `{Your-User-Account}.omp.json` (be sure to replace the current contents of that file and not add it as additional schema, the json file only supports one theme configuration at a time). 
+2. link to **PowerShell Modules** repository: **[here](https://www.powershellgallery.com/packages)**. Most modules have their own documentation that will walk you through initialization and configuration.
 
-### Configuring VIM
+### Configuring Vim 
 Buckle in, it's going to be a wild ride.
 
-#### Why VIM??
+#### Why Vim??
+Why Not? lol but no, you don't really need to adapt your development environment to vim. I hear all the time from people that vim makes your workflow faster and yes this is 100% true. However, with vim-focused extensions in VSCode, I can honestly say that most developers can have a really fast workflow (similar to that of vim) directly in VSCode. Using extensions like **[VSCodeVim](https://github.com/VSCodeVim/Vim)** and **[VSCode-NeoVim](https://github.com/vscode-neovim/vscode-neovim)**
+
+Vim is perfect for development professionals who have an extremely catered workflow that takes advantage of all the extensibility that Vim has to offer under the hood. For most developers however a great deal of the functionality can be achieved in VSCode. And if you are still trying to figure out your most optimal work flow, don't use Vim. Use the IDE/text-editor that you feel the most comfortable in first, then if you find certain features that aren't possible in your IDE/text-editor see if Vim could provide you greater benefit. With that being said, I am using Vim and I haven't opened VSCode in the past few months. It took about a week to learn the keybindings but once I was able to wrap my head around that, I was just about as quick in Vim as I was in VSCode. Not everyone is going to want to spend an entire week to regain the level of proficiency that they may have already had in another IDE/text-editor. It took about another week to actually get faster than I was previously in VSCode. Two weeks to learn Vim, in my opinion, is a steep learning curve.  
+
+#### So you've choosen Vim, now what? 
+Well if my previous paragraph didn't cause you to rethink using Vim then I might as well share with you the tricks of the trade. Don't use Vim or even Neovim. Instead use an IDE layer on top of Vim or Neovim that makes using Vim way more intuitive and feature rich. Something can be said about vim developers attempting to make Neovim/Vim more like VSCode?? **(maybe just use VSCode lol)**. 
+
+I am no expert in setting up the most optimized and developer focused `init.vim` for development. Not even gonna pretend like I am. I would recommend that you don't attempt to setup Neovim or Vim from scratch unless you have about a month to really dive deep into the configuration and tryout a bunch of extensible plugins to see what works for you. Instead look into a few popular IDE layers for Neovim/Vim and see what makes the most sense for you: 
+1. **[LunarVim](https://github.com/LunarVim/LunarVim)** - Really good IDE layer that has really sensible keybindings right out the gate. You will probably have the easiest time picking up keybindings with this one, it's the most actively developed Neovim IDE layer that I was able to find
+2. **[Neovide](https://github.com/neovide/neovide)** - Also a really good option and is actively being developed 
+3. **[Nv-IDE](https://github.com/crivotz/nv-ide)** - Really good IDE layer designed for web developers doesn't have a large community but is actively being developed 
+4. **[NvChad](https://github.com/NvChad/NvChad)** - Really good IDE layer with a large community of contributors, a lot to offer with this one
+5. IF YOU MUST BUILD YOUR NEOVIM ENVIRONMENT FROM SCRACTCH, BUT LIKE WHY? - use this search tool to explore all the developer focused plugins that NeoVim has to offer: **[here](https://neovimcraft.com/)**
+
+#### The Walkthrough
+This could be it's own article in and of itself. My best advice is to follow the installation guides that are specific to each IDE layer listed above. There will more than likely be some kinks to work out with your installation and there's a lot of good "this broke how do I fix this" in the FAQ's for each IDE layer. My current Neovim environment takes advantage of LunarVim. See below: 
+
+![LunarVim](https://res.cloudinary.com/dzmc7doja/image/upload/v1645514108/notes-imgcontent/lunarvim-config.png)
 
 ### Configuring GitHub
 You can do a lot of things with GitHub these days. From version control to project management to github webhooks. Automation through GitHub has been made possible. I use GitHub Project for project management and take advantage of GitHub applications to create labels and milestones for repositories through a yml file. For more detail on this process refer to this [link](https://github.com/Jzbonner/jzbonner/blob/main/github-custom/github-customizations.md)
