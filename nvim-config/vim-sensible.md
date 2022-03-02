@@ -31,3 +31,14 @@ based off of these nvim settings [here](https://github.com/Jzbonner/jzbonner)
 <Alt-r/c> - Toggle RGB color picker (vCoolor) (uses GTK+, requires yad or zenity)
 <Tab> - Next buffer
 <Shift-Tab> - Previous buffer
+
+## Other commands for common task
+Set up and use vim-prettier and COC-prettier first then paste the following command in your init.vim file: 
+
+```bash
+# sets the default Prettier command to trigger the coc-installed version
+command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
+
+# keymapping for vim-prettier
+nmap <leader>gp :Prettier<CR>
+```
