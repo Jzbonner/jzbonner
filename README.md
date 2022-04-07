@@ -1,4 +1,4 @@
-<img align="center" alt="dev-package" width="512px" src="https://res.cloudinary.com/dzmc7doja/image/upload/v1644950394/portfolio-site/logo-white-branding-block-final.png"/>
+<img align="center" alt="dev-package" width="512px" src="https://bit.ly/3NUML0N"/>
 
 [![Website](https://img.shields.io/badge/github%20projects-view%20my%20work-green)](https://github.com/users/Jzbonner/projects/5)
 
