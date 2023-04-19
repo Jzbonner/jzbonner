@@ -1,4 +1,4 @@
-<img align="center" alt="dev-package" width="512px" src="https://bit.ly/3NUML0N"/>
+<img align="center" alt="dev-package" src="https://bit.ly/41lRizt"/>
 
 [![Website](https://img.shields.io/badge/github%20projects-view%20my%20work-green)](https://github.com/users/Jzbonner/projects/5)
 
