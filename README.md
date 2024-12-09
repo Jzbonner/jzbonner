@@ -9,7 +9,7 @@
 <br />
 <br />
 
-**thoughts to live by**: "I am not alone if I stand by myself" - Henry David Thoreau
+**"I am not alone if I stand by myself"**
 
 <br />
 <br />
