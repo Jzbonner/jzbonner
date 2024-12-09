@@ -9,13 +9,12 @@
 <br />
 <br />
 
-## thoughts to live by 
-"I am not alone if I stand by myself" - Henry David Thoreau
+**thoughts to live by**: "I am not alone if I stand by myself" - Henry David Thoreau
 
 <br />
 <br />
 
-| Most Used Languages | Github Statsand   |
+| Most Used Languages | Github Stats   |
 |-----------|-------|
 |[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jzbonner&hide=tcl&layout=compact&hide_title=true&langs_count=8&theme=dracula)](https://github.com/Jzbonner)| ![Jzbonner's GitHub stats](https://github-readme-stats.vercel.app/api?username=jzbonner&show_icons=true&hide_title=true&theme=nord)  
 
