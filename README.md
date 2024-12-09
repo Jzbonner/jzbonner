@@ -9,10 +9,8 @@
 <br />
 <br />
 
-## building with data 
-Currently working on a number of web applications that aid in help-desk operations, account management, data protection and content management. I am comfortable with a wide range of web technologies, but particularly enjoy  front-end software development. I blog about a wide range of topics relating to emerging technology, programming concepts, data aggregation, and entrepreneurship. I am open to and looking for exciting new development projects to contribute to! 
-
-[comment]: <> (Visualizing data through modern application. Taking a deep dive into the following industries: statistical finance, content management and cloud enabled data management)
+## thoughts to live by 
+"I am not alone if I stand by myself" - Henry David Thoreau
 
 <br />
 <br />
