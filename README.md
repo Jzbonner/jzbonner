@@ -1,4 +1,4 @@
-# Jarrett Bonner
+## Jarrett Bonner
 
 I'm a software developer working primarily with web and mobile tooling to enhance user experience and app functionality.
 
