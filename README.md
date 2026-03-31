@@ -33,7 +33,7 @@ I'm a software developer working primarily with web and mobile tooling to enhanc
 | Advanced React                | ![Finished](https://img.shields.io/badge/Finished-%E2%9C%94-darkgreen) |
 | Refactoring UI                | ![Want%20to%20Read](https://img.shields.io/badge/Want%20to%20Read-%F0%9F%91%87-orange) |
 | Web Scraping with Python      | ![Reference](https://img.shields.io/badge/Reference-%F0%9F%93%8A-blue) |
-| Think Stats                   | ![Reference](https://img.shields.io/badge/Reference-%F0%9F%93%8A-blue) |
+| Advanced Data Analytics Using Python | ![Reference](https://img.shields.io/badge/Reference-%F0%9F%93%8A-blue) |
 
 
 #### 🔗 Connect with me 
