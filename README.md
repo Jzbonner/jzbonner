@@ -1,6 +1,6 @@
 ## Jarrett Bonner
 
-I'm a software developer working primarily with web and mobile tooling to enhance user experience and app functionality.
+I write code for the web. Full-stack, mostly—React and TypeScript on the frontend, Node on the backend, and SQL or NoSQL depending on the problem. I care about building things that are fast, maintainable, and don't fall apart at scale.
 
 #### 🛠️ Tech I work with
 
@@ -17,13 +17,13 @@ I'm a software developer working primarily with web and mobile tooling to enhanc
 
 | Year | What I Worked On                                      |
 | ---- | ----------------------------------------------------- |
-| 2026 | Scaling full‑stack apps, focusing on performance and DX |
-| 2025 | Managed digital service architecture for Georgia Gwinnett College|
-| 2024 | Refactored a codebase for the Atlanta Journal Constitution |
-| 2023 | Refined skillset, and gained certifications in Drupal and GA4   |
-| 2022 | Built out PHP applications and contributed to a prepriotary PaaS platform    |
-| 2021 | Worked as a frontend web developer contributing on Ruby on Rails projects  |
-| 2020 | Started freelancing and consulting to various companies in the Metro-Atlanta area  |
+| 2026 | Optimizing full‑stack apps for speed and developer experience |
+| 2025 | Led digital service architecture serving Georgia Gwinnett College's campus community |
+| 2024 | Modernized the Atlanta Journal Constitution codebase for improved performance and maintainability |
+| 2023 | Expanded expertise with Drupal and GA4 certifications |
+| 2022 | Built PHP applications and contributed to a proprietary PaaS platform used by enterprise teams |
+| 2021 | Built user-facing features in React while supporting Ruby on Rails backends |
+| 2020 | Launched freelance career delivering web solutions for Metro-Atlanta businesses |
 
 #### 🧑🏾‍💻 Recommended Reading 
 
@@ -38,8 +38,7 @@ I'm a software developer working primarily with web and mobile tooling to enhanc
 
 #### 🔗 Connect with me 
 
-- Portfolio: [jzbonner]()
-- LinkedIn: [jzbonner](https://www.linkedin.com/in/jarrett-bonner/) 
-- Email: [email](mailto:www.jarrett.bonner@gmail.com)
-- Figma: [figma](https://www.figma.com/@jzbonner) 
-- X: [jzb-dev](https://x.com/jzb_dev) 
+- [LinkedIn](https://www.linkedin.com/in/jarrett-bonner/)
+- [Email](mailto:www.jarrett.bonner@gmail.com)
+- [Figma](https://www.figma.com/@jzbonner)
+- [X](https://x.com/jzb_dev) 
