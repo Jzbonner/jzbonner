@@ -35,6 +35,15 @@ I write code for the web. Full-stack, mostly—React and TypeScript on the front
 | Web Scraping with Python      | ![Reference](https://img.shields.io/badge/Reference-%F0%9F%93%8A-blue) |
 | Advanced Data Analytics Using Python | ![Reference](https://img.shields.io/badge/Reference-%F0%9F%93%8A-blue) |
 
+#### ⚙️ Dotfiles & Environment Configurations
+
+This repository also houses my personal terminal configurations, WSL themes, and local development environment setups:
+
+* 💻 **[PowerShell Core Setup](./docs/powershell-setup.md)**: Custom aliases, functions, and prompt configuration using Oh My Posh.
+  * Configuration files: [user-profile.ps1](./powershell/user-profile.ps1) | [jzbonner.omp.json](./powershell/jzbonner.omp.json)
+* 🐧 **[Development Environment](./docs/development-setup.md)**: WSL2 (Ubuntu), terminal configurations, and essential tooling.
+  * Theme file: [wsl-themes.json](./terminal/wsl-themes.json)
+* 🐙 **[GitHub Workflow](./docs/github-workflow.md)**: SSH keys, remote URLs, and project tracking tips.
 
 #### 🔗 Connect with me 
 

@@ -1,1 +1,13 @@
-node_modules/
+# System Files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Editor backups and temporary files
+*.swp
+*.bak
+*~
+.vscode/
+.idea/
