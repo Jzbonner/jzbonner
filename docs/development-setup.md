@@ -25,4 +25,4 @@ My current development workflow — tooling, terminal, and setup.
 ## Workflow
 
 - **Editor config:** [nvim-config](https://github.com/jbonner8-ggc/nvim-config)
-- **Project scaffolding & DX:** [opencode-dx](https://github.com/jbonner8-ggc/nvim-config)
+- **Project scaffolding & DX:** [opencode-dx](https://github.com/Jzbonner/opencode-dx)
