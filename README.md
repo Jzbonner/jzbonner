@@ -39,11 +39,10 @@ I write code for the web. Full-stack, mostly—React and TypeScript on the front
 
 This repository also houses my personal terminal configurations, WSL themes, and local development environment setups:
 
-* 💻 **[PowerShell Core Setup](./docs/powershell-setup.md)**: Custom aliases, functions, and prompt configuration using Oh My Posh.
+* 💻 **[PowerShell Customization](./docs/customization.md#powershell-customization)**: Custom aliases, functions, and prompt configuration using Oh My Posh.
   * Configuration files: [user-profile.ps1](./powershell/user-profile.ps1) | [jzbonner.omp.json](./powershell/jzbonner.omp.json)
 * 🐧 **[Development Environment](./docs/development-setup.md)**: WSL2 (Ubuntu), terminal configurations, and essential tooling.
-  * Theme file: [wsl-themes.json](./terminal/wsl-themes.json)
-* 🐙 **[GitHub Workflow](./docs/github-workflow.md)**: SSH keys, remote URLs, and project tracking tips.
+  * Theme file: [terminal-themes.json](./terminal/terminal-themes.json)
 
 #### 🔗 Connect with me 
 
