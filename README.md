@@ -1,44 +1,44 @@
 ## Jarrett Bonner
 
-I write code for the web. Full-stack, mostly—React and TypeScript on the frontend, Node on the backend, and SQL or NoSQL depending on the problem. I care about building things that are fast, maintainable, and don't fall apart at scale.
+Full-stack web developer building fast, maintainable products — and the digital platform for a 12,000‑student university campus. My day‑to‑day spans the full stack: Drupal‑based architecture and site operations on one hand, modern React/TypeScript apps on the other. I care about systems that are fast, scalable, and don't fall apart as they grow — and I'm an early adopter of AI‑assisted tooling in real workflows, not just demos.
 
-#### 🛠️ Tech I work with
+#### 🔥 Currently Working On
 
-| Area        | Technologies                             |
-| ----------- | ---------------------------------------- |
-| Frontend    | React, Next.js, TypeScript, Tailwind CSS |
-| Backend     | Node.js, Express, REST/GraphQL           |
-| Database    | PostgreSQL, Supabase                     |
-| DevOps      | Docker, GitHub Actions, Vercel           |
-| Mobile      | ReactNative, Expo, Flipper               |
-| Testing     | Jest, React Testing Library, Playwright  |
+- **Digital platform for Georgia Gwinnett College** — Drupal 10/11, DDEV, Acquia; building and maintaining the web experience for the campus community
+- **AI tooling in daily dev flow** — wiring LLM models into OpenCode + Hermes agent sessions to speed up research, code review, and data work
 
-#### 🧑🏾‍🚀 Timeline 
+#### 🛠️ Tech I Work With
 
-| Year | What I Worked On                                      |
-| ---- | ----------------------------------------------------- |
-| 2026 | Optimizing full‑stack apps for speed and developer experience |
-| 2025 | Led digital service architecture serving Georgia Gwinnett College's campus community |
-| 2024 | Modernized the Atlanta Journal Constitution codebase for improved performance and maintainability |
-| 2023 | Expanded expertise with Drupal and GA4 certifications |
-| 2022 | Built PHP applications and contributed to a proprietary PaaS platform used by enterprise teams |
-| 2021 | Built user-facing features in React while supporting Ruby on Rails backends |
-| 2020 | Launched freelance career delivering web solutions for Metro-Atlanta businesses |
+**Currently using:**
 
-#### 🧑🏾‍💻 Recommended Reading 
+| Area | Stack |
+| --- | --- |
+| CMS / Web Platform | Drupal 10/11, DDEV, Acquia Cloud, Drush, Feeds/Views, config splits |
+| Frontend | React, Next.js, TypeScript, Tailwind CSS |
+| Backend | Node.js, Express, REST/GraphQL, PHP |
+| Database | PostgreSQL, MySQL, SQLite |
+| DevOps / CI / CD | Docker, GitHub Actions, Acquia Pipelines, Composer |
+| AI / LLM | DeepSeek V4 Flash, Gemma 4, Mistral Small, OpenCode, Hermes |
 
-| Book                          | Status              |
-|-------------------------------|---------------------|
-| PostgreSQL Up & Running       | ![Reading](https://img.shields.io/badge/Reading-%F0%9F%93%9A-brightgreen) |
-| Advanced React                | ![Finished](https://img.shields.io/badge/Finished-%E2%9C%94-darkgreen) |
-| Refactoring UI                | ![Want%20to%20Read](https://img.shields.io/badge/Want%20to%20Read-%F0%9F%91%87-orange) |
-| Web Scraping with Python      | ![Reference](https://img.shields.io/badge/Reference-%F0%9F%93%8A-blue) |
-| Advanced Data Analytics Using Python | ![Reference](https://img.shields.io/badge/Reference-%F0%9F%93%8A-blue) |
+**Also work with:**
 
+| Area | Stack |
+| --- | --- |
+| Mobile | React Native, Expo |
+| Data / Scraping | Python, microservices |
+| Testing | Jest, React Testing Library |
 
-#### 🔗 Connect with me 
+#### 🚀 Selected Experience
 
-- [LinkedIn](https://www.linkedin.com/in/jarrett-bonner/)
+- **2025–2026 – Georgia Gwinnett College (Senior Web Developer)** — Led web platform architecture and development serving the campus community; Drupal 10/11, DDEV, Acquia, CI/CD. Owned a content‑heavy public site end‑to‑end: theming, content modeling, Feeds imports, performance, and SEO.
+- **2024 – Atlanta Journal‑Constitution** — Modernized a large newsroom codebase for improved performance and maintainability.
+- **2022–2023 – Agency / enterprise work** — Built PHP and Drupal‑based solutions and contributed to a proprietary PaaS platform used by enterprise teams.
+- **2021–2022 – Product engineering** — Shipped user‑facing features in React while supporting Ruby on Rails backends.
+- **2020 – Freelance** — Launched a web‑development practice delivering solutions for Metro‑Atlanta businesses.
+
+#### 🔗 Connect with me
+
+- [Jarrett Bonner](https://www.linkedin.com/in/jarrett-bonner/)
 - [Email](mailto:www.jarrett.bonner@gmail.com)
 - [Figma](https://www.figma.com/@jzbonner)
-- [X](https://x.com/jzb_dev) 
+- [@jzb_dev](https://x.com/jzb_dev)
